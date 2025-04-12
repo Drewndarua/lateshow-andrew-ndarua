@@ -9,7 +9,7 @@ class Episode(db.model):
     date = db.Column(db.String)
     number = db.Column(db.Integer)
 
-    appearances= db.relationship("Appearance", backref="episode", cascade="all, delete-orphan")
+    appearances = db.relationship("Appearance", backref="episode", cascade="all, delete-orphan")
 
     def to_dict(self):
         return {
@@ -17,6 +17,7 @@ class Episode(db.model):
             "date": self.date,
             "number": self.number 
             }
+    
     def to_dict_with_appearances(self):
         return {
             "id": self.id, 
