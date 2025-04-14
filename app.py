@@ -51,4 +51,4 @@ def create_appearance():
         return jsonify({"error": "Invalid episode or guest ID"}), 400
     
     if __name__ == '__main__':
-        app.run(debug=True)
+        app.run(port=5555, debug=True)

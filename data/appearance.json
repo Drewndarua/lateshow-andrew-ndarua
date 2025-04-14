@@ -1,0 +1,7 @@
+[
+  { "rating": 5, "episode_d": 1, "guest_id": 1 },
+  { "rating": 4, "episode_d": 1, "guest_id": 2 },
+  { "rating": 3, "episode_d": 2, "guest_id": 3 },
+  { "rating": 2, "episode_d": 3, "guest_id": 4 },
+  { "rating": 2, "episode_d": 3, "guest_id": 1 }
+]
